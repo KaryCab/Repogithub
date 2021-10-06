@@ -1,0 +1,32 @@
+/*FOOTER*/
+
+$colorMenu: dimgrey;
+$colorTitulos: rgb(25, 172, 164);
+$colorParrafos: rgb(24, 23, 23);
+$colorBackground: rgb(210, 211, 211); 
+
+footer{ 
+    height: 200px; 
+    width: auto;
+    background-color: $colorBackground;
+  
+    div{ 
+      justify-content: center;
+      display: flex;
+  
+      i{
+          font-size: 25px;
+          padding: 40px 15px;
+      }
+    }
+  
+    div{
+        p{
+          .copy{
+            color: $colorParrafos;
+            text-align: center;
+          }
+        }
+    }
+  }
+  /* CIERRE FOOTER */

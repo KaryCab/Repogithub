@@ -1,0 +1,66 @@
+/*MAIN*/
+$colorMenu: dimgrey;
+$colorTitulos: rgb(25, 172, 164);
+$colorParrafos: rgb(24, 23, 23);
+$colorBackground: rgb(210, 211, 211); 
+
+@mixin main {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+main{
+    @include main;
+}
+
+#tituloprincipal{  
+    color: $colorTitulos;
+    font-size: 30px;
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.Parrafos{
+    color: $colorParrafos;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2.3;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+
+p{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 10px;
+    
+    text-align: center;
+    word-spacing: 2px;
+}
+
+
+h2{
+    text-align: center;
+    margin-left: 100px;
+
+    display: inline;
+
+    color: $colorTitulos;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+
+    display: inline;
+
+}
+
+div div div{
+    height: auto;
+}
+/*FIN MAIN*/

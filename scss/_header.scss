@@ -1,0 +1,47 @@
+/*HEADER*/
+header{
+    width: 100%;
+
+    #imagenCentrada{
+    height: 70px; 
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 15px;
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    #cajaFlexTexto{
+        nav{
+        ul{
+            li{
+            text-align: center;
+            padding: 10px;
+            margin-left: 28px;
+            display: inline;
+            width: 100%; 
+
+    a{
+        color: dimgrey;
+        font-family: 'Handlee', cursive;
+        font-style: normal;
+        font-weight: bold;
+        text-align: left;
+        font-size: 16px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        list-style-type: none;
+
+        &:hover{
+        color: rgb(25, 172, 164);
+        transform: scale(2,1);
+        }
+    }
+            }
+        }
+        }
+    }
+}
+/*FIN HEADER*/

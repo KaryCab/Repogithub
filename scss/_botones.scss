@@ -1,0 +1,21 @@
+
+
+
+.boton{
+    background-color: rgb(65, 175, 170);
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 30px;
+    
+
+}
+
+.boton-enviar{
+    @extend .boton;
+    
+    
+}
+
+
+

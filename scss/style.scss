@@ -1,0 +1,44 @@
+@import "_header";
+@import "_botones.scss";
+@import "_galeria.scss";
+@import "_contacto.scss";
+@import "_footer.scss";
+@import "_main.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$colorMenu: dimgrey;
+$colorTitulos: rgb(25, 172, 164);
+$colorParrafos: rgb(24, 23, 23);
+$colorBackground: rgb(210, 211, 211); 
+
+/*WHATSAPP*/
+.whatsapp {
+    position: fixed;
+    right:25px;
+    bottom:20px; 
+}
+
+.whatsapp img {
+    width:50px; 
+    height:50px; 
+}
+/*FIN WHATSAPP*/
+
+/*RESPONSIVE HOME*/
+.imagenPortada{
+  width: 100%; 
+}
+
+.textosPortada{
+  font-size: 18px;
+}
+/*FIN RESPONSIVE HOME*/
+
+
+
+
+

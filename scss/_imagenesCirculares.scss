@@ -1,0 +1,43 @@
+/*IMAGENES CIRCULARES*/
+#cajaFlex {
+    height: 100%; /*ancho de caja*/
+    
+    display: flex; /*caja flexible,responsive, coloca a sus hijos en linea conservando los porcentajes de ancho (width) de cada elemento */
+    flex-direction: row;/*row_ en fila. row reverse, empieza desde la derecha a interpretar la fila*/
+    justify-content: center;
+    /* justify-content: space-between; */ /* centra y justifica */
+
+    #hijoUno {
+    height: 100%;/*ancho de caja*/
+    width: 100%;
+    margin-left: 10px;
+}
+    
+    #hijoDos {
+    height: 100%;/*ancho de caja*/
+    width: 100%;
+    margin-left: 10px;
+}
+
+#hijoTres {
+    height: 100%;/*ancho de caja*/
+    width: 100%;
+    margin-left: 10px;
+}
+
+#hijoCuatro {
+    height: 100%;/*ancho de caja*/
+    width: 100%;
+    margin-left: 10px;
+}
+
+}
+
+#cajaFlexTexto {
+    height: 50%; /*ancho de caja*/
+    display: flex; /*caja flexible,responsive, coloca a sus hijos en linea conservando los porcentajes de ancho (width) de cada elemento */
+    flex-direction: row;/*row_ en fila. row reverse, empieza desde la derecha a interpretar la fila*/
+    justify-content: center;
+    /* justify-content: space-between; */ /* centra y justifica */
+}
+/*FIN IMAGENES CIRCULARES*/
