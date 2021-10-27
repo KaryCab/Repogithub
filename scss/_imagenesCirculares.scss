@@ -6,6 +6,7 @@
     flex-direction: row;/*row_ en fila. row reverse, empieza desde la derecha a interpretar la fila*/
     justify-content: center;
     /* justify-content: space-between; */ /* centra y justifica */
+    margin-bottom: 50px;
 
     #hijoUno {
     height: 100%;/*ancho de caja*/
@@ -34,7 +35,7 @@
 }
 
 #cajaFlexTexto {
-    height: 50%; /*ancho de caja*/
+    height: 60%; /*ancho de caja*/
     display: flex; /*caja flexible,responsive, coloca a sus hijos en linea conservando los porcentajes de ancho (width) de cada elemento */
     flex-direction: row;/*row_ en fila. row reverse, empieza desde la derecha a interpretar la fila*/
     justify-content: center;

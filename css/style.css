@@ -42,7 +42,8 @@ header {
   display: grid;
   grid-auto-rows: 200px;
   grid-gap: 1rem;
-  grid-auto-flow: row dense; }
+  grid-auto-flow: row dense;
+  margin-top: 30px; }
 
 .grid-gallery__item:nth-child(11n+1) {
   grid-column: span 1; }
@@ -84,7 +85,7 @@ header {
     grid-template-columns: repeat(6, 1fr); } }
 
 /*FIN GRID GALERIA*/
-h1 {
+div h1 {
   font-size: 39px;
   padding-bottom: 20px;
   color: #41afaa;
@@ -188,7 +189,8 @@ main {
   font-family: 'Handlee', cursive;
   text-align: center;
   letter-spacing: 1px;
-  word-spacing: 2px; }
+  word-spacing: 2px;
+  margin-top: 30px; }
 
 .Parrafos {
   color: #181717;
@@ -213,7 +215,7 @@ h2 {
   margin-left: 100px;
   display: inline;
   color: #19aca4;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Handlee', cursive;
   display: inline; }
 
@@ -221,6 +223,61 @@ div div div {
   height: auto; }
 
 /*FIN MAIN*/
+/*IMAGENES CIRCULARES*/
+#cajaFlex {
+  height: 100%;
+  /*ancho de caja*/
+  display: flex;
+  /*caja flexible,responsive, coloca a sus hijos en linea conservando los porcentajes de ancho (width) de cada elemento */
+  flex-direction: row;
+  /*row_ en fila. row reverse, empieza desde la derecha a interpretar la fila*/
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* centra y justifica */
+  margin-bottom: 50px; }
+  #cajaFlex #hijoUno {
+    height: 100%;
+    /*ancho de caja*/
+    width: 100%;
+    margin-left: 10px; }
+  #cajaFlex #hijoDos {
+    height: 100%;
+    /*ancho de caja*/
+    width: 100%;
+    margin-left: 10px; }
+  #cajaFlex #hijoTres {
+    height: 100%;
+    /*ancho de caja*/
+    width: 100%;
+    margin-left: 10px; }
+  #cajaFlex #hijoCuatro {
+    height: 100%;
+    /*ancho de caja*/
+    width: 100%;
+    margin-left: 10px; }
+
+#cajaFlexTexto {
+  height: 60%;
+  /*ancho de caja*/
+  display: flex;
+  /*caja flexible,responsive, coloca a sus hijos en linea conservando los porcentajes de ancho (width) de cada elemento */
+  flex-direction: row;
+  /*row_ en fila. row reverse, empieza desde la derecha a interpretar la fila*/
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* centra y justifica */ }
+
+/*FIN IMAGENES CIRCULARES*/
+.biografia {
+  width: 480px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  background-color: #ceecec;
+  padding-left: 18px; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -239,8 +296,5 @@ div div div {
 /*RESPONSIVE HOME*/
 .imagenPortada {
   width: 100%; }
-
-.textosPortada {
-  font-size: 18px; }
 
 /*FIN RESPONSIVE HOME*/
